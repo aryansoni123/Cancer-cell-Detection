@@ -6,7 +6,7 @@ import tensorflow as tf
 from tensorflow.keras.models import load_model
 
 # Load model
-model = load_model('Cancer_detection_model.h5')
+model = load_model("D:/archive/Cancer_detection_model.h5")
 data_cat = ['Healthy', 'Leukemia - I', 'Leukemia - II', 'Leukemia - III', ' Chronic Lymphocytic Leukemia', 'Follicular Lymphoma', ' Mantle Cell Lymphoma']
 
 # Prediction Function
