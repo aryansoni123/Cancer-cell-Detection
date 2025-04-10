@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 
 # Load model
 model = load_model('Cancer_detection_model.h5')
-data_cat = ['all_benign', 'all_early', 'all_pre', 'all_pro', 'lymph_cll', 'lymph_fl', 'lymph_mcl']
+data_cat = ['Healthy', 'Leukemia - I', 'Leukemia - II', 'Leukemia - III', ' Chronic Lymphocytic Leukemia', 'Follicular Lymphoma', ' Mantle Cell Lymphoma']
 
 # Prediction Function
 def predict_image(path):
